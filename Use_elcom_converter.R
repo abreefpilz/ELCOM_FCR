@@ -12,7 +12,7 @@ pacman::p_load(tidyverse, here)
 
 # Get the functions we need
 # get the function to make the ELCOM files
-source(paste0(here(),"/Data/DataNotYetUploadedToEDI/Make_ELCOM_files/convert_elcom.R"))
+source("https://raw.githubusercontent.com/abreefpilz/ELCOM_FCR/refs/heads/main/convert_elcom.R")
 
 # Founctions for the targets file. Depends which file you are trying to make
 
